@@ -1,6 +1,6 @@
-# docker-mysql-mongo-redis
+# docker-DBs
 
-* Run MySQL, MongoDB, and Redis in docker
+* Run MySQL, MongoDB, Redis and other DBs (coming soon) in docker
 
 * The project can used in development environment
 
