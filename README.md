@@ -22,7 +22,7 @@ git clone https://github.com/Nanobarbalunga/docker-DBs.git
 ## Running
 
 ```shell
-cd docker-mysql-mongo-redis
+cd docker-DBs
 docker compose up -d
 
 # show docker-compose log
@@ -39,4 +39,5 @@ docker compose logs -f
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/techiall/docker-mysql-mongo-redis/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Nanobarbalunga/docker-DBs.git/blob/master/LICENSE) file for details.
+(This is a fork from https://github.com/techiall/docker-mysql-mongo-redis by author techiall)
