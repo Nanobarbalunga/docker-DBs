@@ -16,7 +16,7 @@
 git clone the project
 
 ```shell
-git clone https://github.com/techiall/docker-mysql-mongo-redis
+git clone https://github.com/Nanobarbalunga/docker-DBs.git
 ```
 
 ## Running
