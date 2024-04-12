@@ -1,4 +1,17 @@
 services:
+  db:
+    image: mariadb
+    # restart: always
+    ports:
+      - '${FORWARD_DB_MARIADB_PORT:-3308}:3306'
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      # - ./config/mariadb/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
+      - ./data/mariadb:/var/lib/mysql
+    networks:
+          - db-bridge
+
   mysql:
     image: mysql:8.0
     ports:
